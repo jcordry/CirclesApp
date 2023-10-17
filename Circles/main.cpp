@@ -21,10 +21,20 @@ int main()
     cout << "Hello circles" << endl;
     srand(time(NULL));
 
+    int x{ 100 };
+    int y{ 200 };
+    int radius{ 20 };
+
+    unsigned char r{ 255 };
+    unsigned char g{ 255 };
+    unsigned char b{ 0 };
+    unsigned char a{ 255 };
+
     while(UpdateFramework())
     {
+        ChangeColour(r, g, b);
         // Draws a circle at 100,200 with radius 20
-        DrawCircle(100, 200, 20);
+        DrawCircle(x, y, radius);
 
     }
 
