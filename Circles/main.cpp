@@ -33,7 +33,6 @@ int main()
     while(UpdateFramework())
     {
         ChangeColour(r, g, b);
-        // Draws a circle at 100,200 with radius 20
         DrawCircle(x, y, radius);
 
     }
